@@ -51,6 +51,8 @@ toijomono
 
 You can also use pungen as a library. <sub><sup>*(Backward compatibility is not guaranteed)*</sub></sup>
 ```python
+from pungen import UsernameGenerator
+
 username_gen = UsernameGenerator(7, 13) # min, max = None
 
 username = username_gen.generate()
