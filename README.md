@@ -7,18 +7,53 @@ The usernames are created on the spot using some pre-defined word-creating formu
 Don't worry. It's way less complicated than I'm making it sound.
 
 
-### Usage
+## Usage
+
+### As a script
 
 The format for generating usernames from command line is:
 
-`pungen <username_length>`
+`pyngen.py [length // range] [count]`
 
-This will generate ten usernames of the specified length. You can specify a range of lengths like this:
+#### Example:
+```console
+$ pyngen.py
+Debezofotopp
+sanebusti9
+hidewenehiixo
+nerefida
+Dateter
+nodastoremo
+toppatefen
+rastari29
+Stitalirere
+canduzeretii
 
-`pungen <min_username_length> <max_username_length>`
+$ pyngen.py 5
+Nnote
+naral
+Hoo59
+coge8
+ta402
+Tuluz
+tures
+danuf
+modot
+tohia
 
-The usernames will always be within the lengths specified.
+$ pyngen.py 4-9 3
+Sasut379
+deseete
+toijomono
+```
 
+### As a library
 
-I really just wrote this for fun, if you can come up with something to do with it, by all means, use it.
-That should be all you need to know. Oh, it's for Python 3.
+You can also use pungen as a library. <sub><sup>*(Backward compatibility is not guaranteed)*</sub></sup>
+```python
+username_gen = UsernameGenerator(7, 13) # min, max = None
+
+username = username_gen.generate()
+print(username)
+# Outputs sinoqanodo
+```
