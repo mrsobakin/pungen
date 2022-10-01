@@ -13,7 +13,7 @@ Don't worry. It's way less complicated than I'm making it sound.
 
 The format for generating usernames from command line is:
 
-`pyngen.py [length // range] [count]`
+`pungen.py [length // range] [count]`
 
 #### Example:
 ```console
@@ -29,7 +29,7 @@ rastari29
 Stitalirere
 canduzeretii
 
-$ pyngen.py 5
+$ pungen.py 5
 Nnote
 naral
 Hoo59
@@ -41,7 +41,7 @@ danuf
 modot
 tohia
 
-$ pyngen.py 4-9 3
+$ pungen.py 4-9 3
 Sasut379
 deseete
 toijomono
