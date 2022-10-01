@@ -17,7 +17,7 @@ The format for generating usernames from command line is:
 
 #### Example:
 ```console
-$ pyngen.py
+$ pungen.py
 Debezofotopp
 sanebusti9
 hidewenehiixo
